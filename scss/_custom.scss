@@ -133,7 +133,6 @@ a {
 	background-image: radial-gradient(0% 100%, #725AC1 0%, #1F1639 100%);
 	border-bottom:  1px dotted $purple-bg;
 	height: 60px;
-
 	z-index: 9999;
 	.nav ul li {
 		color: $secondary-color;
@@ -145,11 +144,6 @@ a {
 }
 
 
-#header {
-  height: 60px;
-  width: 100%;
-
-}
 
 #hero {
 		border: 0px solid red;
@@ -187,6 +181,42 @@ a {
 }
 
 
+#hero-small {
+		border: 0px solid red;
+	  font-weight: 100;
+		width: 100%;
+		height: 380px;
+		background: #f5f5f5 url('../media/images/hero-bg.jpg') no-repeat;
+		background-size: cover;
+		text-align: center;
+		color: $info-color;
+		h1 {
+		color: $secondary-color;
+		font-weight: 100;
+		letter-spacing: 1.5px;
+		text-shadow: 0px 2px 4px #000;
+		}
+		.inner-hero {
+			padding: 120px 80px;
+			border: 0px solid blue;
+			margin: 0 auto;
+			p {
+				font-weight: 100;
+				font-size: 16px;
+				color: $info-color;
+				letter-spacing: 1.5px;
+				line-height: 24px;
+				text-shadow: 0px 2px 4px #000;
+			}
+		}
+  .sub-head {
+		font-size: 120%;
+
+  }
+}
+
+
+
 @media (max-width: 784px) {
 	#hero {
 			h1 {
@@ -210,4 +240,13 @@ a {
 
 	  }
 	}
+
+  #hero-small {
+    h1 {
+      font-size: 180%;
+    }
+    p {
+      font-size: 90%;
+    }
+  }
 }

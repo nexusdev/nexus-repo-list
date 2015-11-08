@@ -1,0 +1,44 @@
+<!-- Add Head  -->
+{% include head.html %}
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <!-- Add header and nav here  -->
+
+        <!--[if lt IE 8]>
+            <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
+        <![endif]-->
+
+<!-- Add TopNav  -->
+{% include topnav.html %}
+
+<!-- Add OffCanvas  -->
+{% include offcanvas.html %}
+
+<section id="hero-small">
+    <div class="row inner-hero">
+      <div class="small-12 animated fadeIn">
+        <center>
+  <!--      <img  width="256" src="/media/images/ens-icon-dark.png" /> -->
+        <h1>Current Projects</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <a class="btn button primary tiny round outline">EXPLORE</a>
+        </center>
+      </div>
+    </div>
+</section>
+
+
+
+        <div class="row">
+          <section role="main">
+            <div class="small-12 columns mtl">
+
+              {{ content }}
+
+            </div>
+          </section>
+        </div>
+
+<!-- Add Footer  -->
+{% include footer.html %}
