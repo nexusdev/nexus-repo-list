@@ -1,5 +1,6 @@
 .sass-cache
 *.DS_Store
+_site
 Gemfile.lock
 config.codekit
 node_modules

@@ -3,10 +3,10 @@
     <title></title>
     <link href="/"/>
     <link type="application/atom+xml" rel="self" href="/atom.xml"/>
-    <updated>2015-11-08T21:57:45+01:00</updated>
+    <updated>2015-11-08T22:40:26+01:00</updated>
     <id></id>
     <author>
-        <name>nexusdev</name>
+        <name>NexusDevelopment</name>
         <email></email>
     </author>
 
@@ -17,7 +17,7 @@
         <title>Sample Post</title>
         <updated>2015-01-01T00:00:00+01:00</updated>
         <author>
-            <name>nexusdev</name>
+            <name>NexusDevelopment</name>
             <uri>/</uri>
         </author>
         <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra

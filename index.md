@@ -1,8 +1,8 @@
 ---
 layout: landing
-title: Welcome!
-description: This is my site. Welcome.
-keywords: github pages, Jekyll, foundation 5
+title: Welcome at NexusDevelopment!
+description: Description needs to be added.
+keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 ---
 
 <div class="row  pal">
