@@ -8,11 +8,11 @@ keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 <div class="row  pal">
 <div class="columns small-12">
 
-<center>
+
 <h2 class="mtl mbl">
 Welcome
 </h2>
-</center>
+
 
 </div>
 <div class="columns small-12 large-6 ">
@@ -28,5 +28,3 @@ Welcome
 <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
 </div>
 </div>
-
-{% include newsletter.html %}
