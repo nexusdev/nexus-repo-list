@@ -1,0 +1,14 @@
+name : NexusDevelopment
+brand : nexusdev.us
+description : This is the description of my site
+keyword :
+url : nexusdevelopment.github.io
+email : contact@nexusdev.us
+twitter : NexusDevelopment
+github : NexusDevelopment
+author : NexusDevelopment
+analytics :
+year : 2015
+markdown : kramdown
+exclude :
+  - node_modules

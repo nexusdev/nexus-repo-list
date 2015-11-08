@@ -1,0 +1,18 @@
+/*
+	style.css
+	Written by nexusdev.us
+*/
+
+/* normalize it */
+@import "normalize";
+
+/* foundation */
+@import "settings",
+		"foundation";
+
+/* padding and margins */
+@import "padding-margin";
+
+
+/* custom */
+@import "custom";
