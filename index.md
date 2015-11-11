@@ -8,23 +8,18 @@ keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 <div class="row  pal">
 <div class="columns small-12">
 
-
+<center>
 <h2 class="mtl mbl">
-Welcome
+We're ready.  Are you?
 </h2>
-
-
-</div>
-<div class="columns small-12 large-6 ">
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-
-<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-</div>
+</center>
 <div class="columns small-12 large-6">
-<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+<p><strong style="color:#403888">Nexus is a full-service company that specializes in developing efficient, beautiful, useful DApps.</strong></p>  <p>We do this by developing in expedited sprints while also proving our clients with top shelf service, easy to understand documentation, and updates every step of the way.</p>
+</div>
 
-<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+<div class="columns small-12 large-6">
+<p>Our team of developers and designers have been working in the Blockchain space for over 4 years.  We know that the Blockchain is the technology of the future, and we're ready to use it to change the world.  We believe in doing things right, but that doesn't mean it has to take forever.  We understand tackling the Blockchain can be intimidating, and we're here to help.</p>
+</div>
+
 </div>
 </div>
