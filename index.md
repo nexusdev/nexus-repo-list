@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Welcome at NexusDevelopment!
-description: Description needs to be added.
+title: Nexus Development
+description:
 keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 ---
 
