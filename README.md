@@ -3,12 +3,11 @@ nexusdev.us Website (Jekyll + Zurb)
 
 Start [a github pages](https://pages.github.com/) website powerd by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/docs/sass.html) in under 5 minutes! 
 
-
-### For User & Organization Pages
-See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/)
-
 1. Fork or copy this repo to your user or project
 2. From the `settings` rename the repo to `username.github.io` naming scheme.
+
+See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/)
+
 
 ### To edit contents:
 1. edit `_config.yml`
