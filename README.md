@@ -10,14 +10,6 @@ See [github documentation](https://help.github.com/articles/user-organization-an
 1. Fork or copy this repo to your user or project
 2. From the `settings` rename the repo to `username.github.io` naming scheme.
 
-### For Project Pages
-See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
-
-1. Create a `gh-pages` branch, i.e. `git checkout -b gh-pages`
-2. [Download the contents of this repo](https://github.com/daigofuji/jekyll-foundation-5-starter/archive/master.zip)
-3. Replace the entire branch contents with unzipped stuff
-4. Add, Commit then Publish the branch to github, i.e. `git push --set-upstream origin gh-pages`
-
 ### To edit contents:
 1. edit `_config.yml`
 2. edit html/md files (hint: `_layouts/default.html` is the base)
