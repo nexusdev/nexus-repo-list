@@ -152,11 +152,11 @@ a {
   }
 	  font-weight: 100;
 		width: 100%;
-		min-height: 520px;
-		height: 42vh;
+		height: 100vh;
 		background: #f5f5f5 url('../media/images/hero-bg.jpg') no-repeat;
 		background-size: cover;
 		text-align: cetner;
+    vertical-align: middle;
 		color: $info-color;
 		h1 {
 		color: $secondary-color;
