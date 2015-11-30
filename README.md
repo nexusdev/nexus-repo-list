@@ -2,7 +2,7 @@
 ------
 [![Slack Status](http://slack.makerdao.com/badge.svg)](https:/slack.makerdao.com)
 
-
+[![Join the chat at https://gitter.im/NexusDevelopment/NexusDevelopment.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NexusDevelopment/dapple?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 nexusdev.us Website (Jekyll + Zurb)
 ===========================
