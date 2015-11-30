@@ -1,3 +1,9 @@
+##### Join us on SLACK
+------
+[![Slack Status](http://slack.makerdao.com/badge.svg)](https:/slack.makerdao.com)
+
+
+
 nexusdev.us Website (Jekyll + Zurb)
 ===========================
 
