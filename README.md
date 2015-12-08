@@ -1,9 +1,7 @@
-##### Join us on SLACK
-------
-[![Slack Status](http://slack.makerdao.com/badge.svg)](https:/slack.makerdao.com) / [![Join the chat at https://gitter.im/NexusDevelopment/NexusDevelopment.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NexusDevelopment/NexusDevelopment.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 nexusdev.us Website (Jekyll + Zurb)
 ===========================
+[![Slack Status](http://slack.makerdao.com/badge.svg)](https://slack.makerdao.com) / [![Join the chat at https://gitter.im/NexusDevelopment/NexusDevelopment.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NexusDevelopment/NexusDevelopment.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Start [a github pages](https://pages.github.com/) website powerd by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/docs/sass.html) in under 5 minutes! 
 
