@@ -2,13 +2,13 @@ name : NexusDevelopment
 brand : nexusdev.us
 description : This is the description of my site
 keyword :
-url : http://nexusdevelopment.github.io
+url : https://nexusdev.us
 email : contact@nexusdev.us
 twitter : NexusDevelopment
-github : NexusDevelopment
-author : NexusDevelopment
+github : nexusdev
+author : nexusdevs
 analytics :
-year : 2015
+year : 2016
 markdown : kramdown
 exclude :
   - node_modules

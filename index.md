@@ -1,13 +1,12 @@
 ---
-layout: landing
+layout: landing 
 title: Nexus Development
 description:
 keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 ---
 
-<div class="row  pal" style="display:none;">
+<div class="row pal">
 <div class="columns small-12">
-
 <center>
 <h2 class="mtl mbl">
 We're ready.  Are you?

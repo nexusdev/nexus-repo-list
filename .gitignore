@@ -4,4 +4,4 @@ _site
 Gemfile.lock
 config.codekit
 node_modules
-_config.yml
+.idea
