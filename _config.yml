@@ -1,14 +1,16 @@
 name : NexusDevelopment
 brand : nexusdev.us
 description : This is the description of my site
-keyword :
-url : https://nexusdev.us
+keyword : Blockchain, Solidity, Smart Contracts, Dapps, Development, Ethereum
+url : http://stage.nexusdev.us
 email : contact@nexusdev.us
 twitter : NexusDevelopment
 github : nexusdev
 author : nexusdevs
-analytics :
+analytics : UA-74948950-1
 year : 2016
 markdown : kramdown
 exclude :
   - node_modules
+  - Capfile
+  - config
