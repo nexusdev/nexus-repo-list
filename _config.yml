@@ -1,14 +1,14 @@
-name : NexusDevelopment
+name : Nexus Development
 brand : nexusdev.us
-description : This is the description of my site
+description : Decentralized Application R&D Firm
 keyword :
-url : http://nexusdevelopment.github.io
+url : https://nexusdev.github.io
 email : contact@nexusdev.us
 twitter : NexusDevelopment
-github : NexusDevelopment
-author : NexusDevelopment
+github : NexusDev
+author : NexusDev
 analytics :
-year : 2015
+year : 2016
 markdown : kramdown
 exclude :
   - node_modules
