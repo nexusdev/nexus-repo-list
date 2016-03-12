@@ -18,6 +18,20 @@ $info-color: #C4BFF6;
 
 
 
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+}
+
+
+
+
 .awesome {
 -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -110,11 +124,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
 
 
 body, html {
   font-weight: 300;
+  @include font-size(16px);
   p {
     font-weight: 300;
   }
@@ -131,12 +150,13 @@ a {
 
 #topnav {
 	background-image: radial-gradient(0% 100%, #725AC1 0%, #1F1639 100%);
-	border-bottom:  1px dotted $purple-bg;
+	border-bottom:  0px dotted $purple-bg;
 	height: 60px;
 	z-index: 9999;
 	.nav ul li {
 		color: $secondary-color;
-	}
+
+    }
 }
 
 .top-off-canvas-menu {
@@ -276,7 +296,15 @@ a {
 
 
 #particles-js {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.75;
+}
+
+#particles-js-1 {
 	position: fixed;
 	height: 100vh;
 	width: 100vw;
+	opacity: 0.5;
 }
