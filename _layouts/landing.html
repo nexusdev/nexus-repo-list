@@ -21,20 +21,25 @@
 
         <div class="row">
           <section role="main">
-            <div class="small-12 columns">
+            <div class="small-12 columns before-features">
 
               {{ content }}
 
             </div>
           </section>
-            <section>
-                <div class="small-12 ">
-
-                    {% include featured-products.html %}
-
-                </div>
-            </section>
         </div>
+
+
+      <section class="features">
+          <div class="row">
+              <hr style="max-width: 90vw; margin: 0 auto;">
+          <div class="small-12">
+
+              {% include featured-products.html %}
+
+          </div>
+          </div>
+      </section>
 
 
 <!-- Add Footer  -->

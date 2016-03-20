@@ -83,11 +83,15 @@
 	function initEvents() {
 		// open items
 		zoomCtrl.addEventListener('click', function() {
+			$('.before-features').css('opacity','0').fadeOut(1000);
 			openItem(items[current]);
 		});
 
 		// close content
-		closeContentCtrl.addEventListener('click', closeContent);
+		closeContentCtrl.addEventListener('click', function() {
+			$('.before-features').css('opacity','1').fadeIn(3000);
+			closeContent(items[current]);
+		});
 
 		// navigation
 		navRightCtrl.addEventListener('click', function() { navigate('right'); });
@@ -136,7 +140,7 @@
 		applyTransforms(zoomer);
 		// also scale the body so it looks the camera moves to the item.
 		if( bodyScale ) {
-			dynamics.animate(bodyEl, { scale: bodyScale }, { type: dynamics.easeInOut, duration: 500 });
+			dynamics.animate(bodyEl, { scale: bodyScale }, { type: dynamics.easeInOut, duration: 100 });
 		}
 		// after the transition is finished:
 		onEndTransition(zoomer, function() {
@@ -258,8 +262,8 @@
 		// animate the current element out
 		dynamics.animate(currentEl, { opacity: 0, translateX: dir === 'right' ? -1*currentEl.offsetWidth/2 : currentEl.offsetWidth/2, rotateZ: dir === 'right' ? -10 : 10 }, {
 			type: dynamics.spring,
-			duration: 2000,
-			friction: 600,
+			duration: 1000,
+			friction: 400,
 			complete: function() {
 				dynamics.css(itemCurrent, { opacity: 0, visibility: 'hidden' });
 			}
@@ -279,7 +283,7 @@
 		// animate the next element in
 		dynamics.animate(nextEl, { opacity: 1, translateX: 0 }, {
 			type: dynamics.spring,
-			duration: 2000,
+			duration: 1000,
 			friction: 600,
 			complete: function() {
 				items.forEach(function(item) { classie.remove(item, 'slide--current'); });
