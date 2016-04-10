@@ -8,17 +8,13 @@
 
 /* foundation */
 @import "settings",
-		"foundation";
+			"foundation";
 
 /* padding and margins */
 @import "padding-margin";
 
 
 /* custom */
+@import "variables";
 @import "custom";
-
-/* slider */
-@import "slider-component";
-
-/* slider */
-@import "slider-style";
+@import "tabs";

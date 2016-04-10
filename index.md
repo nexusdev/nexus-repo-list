@@ -1,5 +1,5 @@
 ---
-layout: landing 
+layout: landing
 title: Nexus Development
 description:
 keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
@@ -8,11 +8,9 @@ keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 
 <div class="row pal">
 <div class="columns small-12">
-<center>
-<h2 class="mtl mbl">
+<h2 class="mtl mbl ">
 Web services of the future will compete on transparency and trustlessness.
 </h2>
-</center>
 <div class="columns small-12 large-6">
 <p>The potential of decentralized apps is vast, and we love discussing the possibility of applying these technologies to practically any business domain. If your company counts data as an asset, you should study how these technologies may affect you. </p>
 <p><strong style="color:#403888">Nexus helps organizations that are ready to open their data and streamline their operations get up to speed on new capabilities at the technological frontier.</strong></p>
@@ -25,5 +23,3 @@ Web services of the future will compete on transparency and trustlessness.
 
 </div>
 </div>
-
-
