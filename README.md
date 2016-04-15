@@ -1,4 +1,4 @@
-[![Header](https://ipfs.pics/ipfs/QmZQ9b6s9ntTqtn3FBTVEdEmtKzBAyt8remr44h4tvieBw)](https://nexusdev.us) 
+[![Header](https://ipfs.pics/ipfs/QmZQ9b6s9ntTqtn3FBTVEdEmtKzBAyt8remr44h4tvieBw)](https://nexusdev.us)
 ===========================
 [![Slack Status](http://slack.makerdao.com/badge.svg)](https://slack.makerdao.com) / [![Join the chat at https://gitter.im/NexusDevelopment/NexusDevelopment.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NexusDevelopment/NexusDevelopment.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -20,6 +20,10 @@ See [github documentation](https://help.github.com/articles/user-organization-an
 
 ### Useful command:
 This assumes you have grunt and bower installed. Make sure you have [npm](https://docs.npmjs.com/getting-started/installing-node), and have ran `npm install -g bower grunt-cli` to install bower and grunt globally.
+
+
+### Problems with bundle installer El Capitan:
+No, you'll need to either change your `GEM_HOME` or do something like `sudo gem install bundler -n /usr/local/bin` because of El Cap's introduction of SIP (System Integrity Protection).
 
 Run grunt to compile css from sass by simply run `grunt` from your terminal within your repo.
 It will launch watch by default. <code>control-c</code> to stop. If you only want the css compiled once, run `grunt sass`
