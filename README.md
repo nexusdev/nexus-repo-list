@@ -7,7 +7,7 @@
 This assumes you have grunt and bower installed. Make sure you have [npm](https://docs.npmjs.com/getting-started/installing-node), and have ran `npm install -g bower grunt-cli` to install bower and grunt globally.
 
 
-### Set uo local `dev env`:
+### Set up local `dev env`:
 ```
 git clone https://www.github.com/nexusdev/nexusdev.github.io.git
 cd nexusdev.github.io
