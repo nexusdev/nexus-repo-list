@@ -4,7 +4,7 @@ $(document).foundation();
 
 
 $(window).on("scroll", function() {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 320) {
         $("#topnav").removeClass("scrolling");
 
     }

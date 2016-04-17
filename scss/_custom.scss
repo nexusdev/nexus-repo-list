@@ -129,16 +129,32 @@ a {
 
 #topnav {
 	/* background-image: radial-gradient(0% 100%, #725AC1 0%, #1F1639 100%); */
+	background: #fff;
 	border-bottom:  0px dotted $purple-bg;
 	height: 60px;
 	z-index: 9999;
+	border-top: 3px solid $primary-color;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	.logo {
+		width: 136px;
+		margin: 0.25rem 0 0 0;
+	}
 
+	.header {
+		margin: 0;
+		padding: 0;
 
+	}
 	.nav ul li {
 		color: $secondary-color;
+		margin: 0;
+		padding: 0;
 
     }
 }
+
 
 
 .scrolling {
