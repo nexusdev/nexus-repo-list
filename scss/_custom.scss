@@ -132,10 +132,17 @@ a {
 	border-bottom:  0px dotted $purple-bg;
 	height: 60px;
 	z-index: 9999;
+
+
 	.nav ul li {
 		color: $secondary-color;
 
     }
+}
+
+
+.scrolling {
+	display: none;
 }
 
 .top-off-canvas-menu {

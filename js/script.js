@@ -3,6 +3,17 @@
 $(document).foundation();
 
 
+$(window).on("scroll", function() {
+    if ($(this).scrollTop() > 200) {
+        $("#topnav").removeClass("scrolling");
+
+    }
+    else {
+        $("#topnav").addClass("scrolling");
+    }
+ });
+
+
 /* particlesJS */
 
 particlesJS('particles-js',
@@ -125,4 +136,3 @@ particlesJS('particles-js',
     }
 
 );
-
