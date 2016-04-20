@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2 + Imported Layers Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r="143.544416%" id="radialGradient-1">
+            <stop stop-color="#725AC1" offset="0%"></stop>
+            <stop stop-color="#1E1639" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="96" height="96" rx="14.3999991"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.434273098 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="CI-all" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ALL-logos---0.3-Copy-4" transform="translate(-193.000000, -488.000000)">
+            <g id="Imported-Layers-+-nexus-+-Rectangle-2-+-Imported-Layers-Copy-+-Line" transform="translate(171.000000, 140.000000)">
+                <g id="Rectangle-2-+-Imported-Layers-Copy" transform="translate(27.000000, 351.000000)">
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use stroke="#FFFFFF" stroke-width="2" fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Imported-Layers-Copy" filter="url(#filter-4)" transform="translate(19.000000, 19.000000)" fill="#FFFFFF">
+                        <path d="M29,0 C12.9834933,0 0,12.9834933 0,29 C0,45.0165067 12.9834933,58 29,58 C45.0165067,58 58,45.0165067 58,29 C58,12.9834933 45.0165067,0 29,0 L29,0 Z M29,55.68 C14.2641333,55.68 2.32,43.7358667 2.32,29 C2.32,14.2641333 14.2641333,2.32 29,2.32 C43.7358667,2.32 55.68,14.2641333 55.68,29 C55.68,43.7358667 43.7358667,55.68 29,55.68 L29,55.68 Z" id="Fill-1"></path>
+                        <path d="M31.32,29 C31.32,32.0933333 26.68,32.0933333 26.68,29 C26.68,25.9066667 31.32,25.9066667 31.32,29" id="Fill-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

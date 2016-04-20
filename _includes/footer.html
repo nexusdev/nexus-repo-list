@@ -11,7 +11,7 @@
 
     </p>
 
-    <p class="quiet  right">
+    <p class="quiet right">
       <a href="https://github.com/{{ site.github }}/"><i class="fa fa-github"></i></a></p>
 
   </div>
@@ -29,14 +29,26 @@
 ================================================== -->
 <!-- Zepto (http://zeptojs.com/) is great, but I am sticking with jQuery. Sorry! -->
 
+
+
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r14/Stats.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+
+    <script src="js/index.js"></script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <!-- <script src="js/particles.js"></script> -->
 <script src="js/dynamics.min.js"></script>
-<script src="js/script.js"></script>
 <script src="js/tabs.js"></script>
+<script src="js/script.js"></script>
+
 <script>
     new CBPFWTabs( document.getElementById( 'tabs' ) );
 </script>
@@ -49,6 +61,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '{{ site.analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
+
 
 
 </body>
