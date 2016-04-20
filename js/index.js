@@ -53,7 +53,7 @@ var Webgl = function () {
     this.aspectRatio = width / height;
     this.rotationMode = false;
     this.wireframeMode = false;
-    this.distance = 100;
+    this.distance = 85;
     this.camera = new THREE.OrthographicCamera(-this.distance * this.aspectRatio, this.distance * this.aspectRatio, this.distance, -this.distance, 1, 1000);
     this.camera.position.set(0, -135, 150);
     this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
@@ -110,7 +110,7 @@ var Webgl = function () {
   Webgl.prototype.animation = function animation() {
 
     var initRotationDuration = 2.7;
-    var halfLength = Math.floor(this.cubes.length / 1.25);
+    var halfLength = Math.floor(this.cubes.length / 2);
     var staggerOffset = 0.45;
     var loopDelay = 2;
 

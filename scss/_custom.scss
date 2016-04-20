@@ -129,6 +129,7 @@ a {
 
 #topnav {
 	/* background-image: radial-gradient(0% 100%, #725AC1 0%, #1F1639 100%); */
+	z-index: 99999;
 	background: #fff;
 	border-bottom:  0px dotted $purple-bg;
 	height: 60px;
@@ -166,8 +167,8 @@ display:none;
 canvas {
 	position: absolute;
 	top: 0;
-	z-index: 1;
-	opacity: 0.25;
+	z-index: 0;
+	opacity: 0.15;
 }
 
 .canvas-bg {
@@ -176,33 +177,36 @@ canvas {
 
 
 #hero {
-	z-index: 1;
+	z-index: 9999;
 	font-weight: 100;
 	width: 100vw;
 	height: 100vh;
 	background-image: linear-gradient(0deg, #FFFFFF 0%, #EFF1F3 48%, #FFFFFF 100%);
 	background-image: linear-gradient(-1deg, rgba(255,255,255,0.50) 0%, rgba(141,134,201,0.50) 100%);
-
+	background: url('../media/images/escheresque.png');
 	text-align: center;
 	vertical-align: middle;
 	color: $info-color;
-	img {
-	  max-width: 256px;
-	  margin-bottom: 12px;
-	}
+
 	h1 {
 	color: $dark-bg-color;
 	font-weight: 100;
 	letter-spacing: 1.5px;
+	font-size: 320%;
 	/* text-shadow: 0px 2px 4px $dark-bg-color; */
 	}
 	.inner-hero {
-		z-index: 99999;
-		padding: 12rem 10rem;
-		border: 1px solid blue;
+		z-index: 4;
+		padding: 8rem 10rem;
 		margin: 0 auto;
+		position: relative;
 		div:first-child {
 		margin-top: 2rem ;
+		}
+
+		a.button {
+			padding: 0.45rem 2rem;
+			font-size: 13px;
 		}
 		p {
 			font-weight: 100;
@@ -231,6 +235,7 @@ canvas {
 	background-size: cover;
 	text-align: center;
 	color: $dark-bg-color;
+
 		h1 {
 		color: $dark-bg-color;
 		font-weight: 100;
@@ -277,7 +282,7 @@ canvas {
 @media (max-width: 784px) {
 	#hero {
     img {
-      width: 224px;
+      width: 48px;
       margin-bottom: 12px;
     }
 			h1 {
