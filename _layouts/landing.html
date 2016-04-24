@@ -19,7 +19,7 @@
 {% include hero.html %}
 
 
-        <div class="row">
+        <div class="row" id="about">
           <section role="main">
             <div class="small-12 columns before-features">
 
@@ -30,8 +30,13 @@
         </div>
 
 
-      <section class="features">
+      <section class="features" id="products">
           <div class="row">
+                        <center>
+                        <img  class="mal" src="../media/images/line-p.svg"  />
+                        </center>
+            <h2 class="text-center mbm">Solidity Dev Suite</h2>
+
           <div class="small-12 columns mtl ">
               {% include tabs-products.html %}
 
@@ -39,6 +44,18 @@
           </div>
       </section>
 
+
+      <section class="maker" id="maker">
+          <div class="row">
+          <div class="small-12  medium-10 medium-offset-1 columns mtl ">
+
+          </div>
+          </div>
+      </section>
+
+
+
+              {% include newsletter.html %}
 
 <!-- Add Footer  -->
 {% include footer.html %}

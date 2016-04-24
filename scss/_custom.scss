@@ -75,7 +75,10 @@ background-color: #ffb515;
     fill: currentColor;
 }
 
-
+.highlight {
+	font-weight: 700;
+	color: $primary-color;
+}
 
 button, .button {
   transition: all 0.3s ease 0s !important;
