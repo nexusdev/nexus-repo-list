@@ -133,26 +133,6 @@
 	display: block;
 }
 
-.mediabox {
-	float: left;
-	width: 50%;
-	padding: 0 25px;
-}
-
-.mediabox img {
-	max-width: 100%;
-	display: block;
-	margin: 0 auto;
-}
-
-.mediabox h3 {
-	margin: 0.75em 0 0.5em;
-}
-
-.mediabox p {
-	padding: 0 0 1em 0;
-	margin: 0;
-}
 
 /* Example media queries */
 
@@ -170,12 +150,6 @@
 		width: auto;
 		padding: 0 0 35px 0;
 		font-size: 90%;
-	}
-
-	.mediabox img {
-		float: left;
-		margin: 0 25px 10px 0;
-		max-width: 40%;
 	}
 
 	.mediabox h3 {

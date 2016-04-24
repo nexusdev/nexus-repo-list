@@ -6,6 +6,8 @@ keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 ---
 
 
+
+
 <div class="row pal">
 <div class="columns small-12">
 <h2 class="mtl mbl text-center">
@@ -22,8 +24,5 @@ Web services of the future will compete on transparency and trustlessness.
 </div>
 
 </div>
-</div>
 
-<div class="center">
-<div class="mouse"><div class="wheel"></div></div>
 </div>
