@@ -5,7 +5,9 @@ description:
 keywords: nexus, blockchain technology, smart contracts, ethereum, bitshares
 ---
 
-
+<center>
+<img src="../media/images/line-p.svg"  />
+</center>
 
 
 <div class="row pal">

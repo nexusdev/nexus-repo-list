@@ -12,6 +12,8 @@
 	text-align: center;
 }
 
+
+
 .tabs nav ul {
 	padding: 0;
 	margin: 0;
@@ -69,46 +71,22 @@
 	color: $purple-bg-dark;
 }
 
-/* Icons */
-.tabs nav a:before {
-	display: inline-block;
-	vertical-align: middle;
-	text-transform: none;
-	font-weight: normal;
-	font-variant: normal;
-	font-family: 'icomoon';
-	line-height: 1;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-	margin: -0.25em 0.4em 0 0;
+
+/* Nav */
+.tabs img {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	margin-top: -6rem;
 }
 
-.icon-food:before {
-	content: "\e600";
-}
-
-.icon-lab:before {
-	content: "\e601";
-}
-
-.icon-cup:before {
-	content: "\e602";
-}
-
-.icon-truck:before {
-	content: "\e603";
-}
-
-.icon-shop:before {
-	content: "\e604";
-}
 
 /* Content */
 .content section {
 	font-size: 1.25em;
 	padding: 3em 1em;
 	display: none;
-	max-width: 1230px;
+	max-width: 100;
 	margin: 0 auto;
 }
 
@@ -138,7 +116,7 @@
 
 @media screen and (max-width: 52.375em) {
 	.tabs nav a span {
-		display: none;
+		font-size: 60%;
 	}
 
 	.tabs nav a:before {
@@ -176,28 +154,23 @@
 	.tabs nav ul,
 	.tabs nav ul li a {
 		width: 100%;
-		padding: 0;
+		padding: 0.25rem;
 	}
 
 	.tabs nav ul li {
-		width: 20%;
-		width: calc(20% + 1px);
+		width: 25%;
+		width: calc(25% + 1px);
 		margin: 0 0 0 -1px;
 	}
 
 	.tabs nav ul li:last-child {
-		border-right: none;
 	}
 
 	.mediabox {
 		text-align: center;
 	}
 
-	.mediabox img {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
+
 
 	.mediabox h3 {
 		margin: 1.25em 0 1em;

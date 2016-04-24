@@ -55,7 +55,7 @@ var Webgl = function () {
     this.wireframeMode = false;
     this.distance = 85;
     this.camera = new THREE.OrthographicCamera(-this.distance * this.aspectRatio, this.distance * this.aspectRatio, this.distance, -this.distance, 1, 1000);
-    this.camera.position.set(0, -135, 150);
+    this.camera.position.set(-80, -135, 150);
     this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     this.renderer.setSize(width, height);
 

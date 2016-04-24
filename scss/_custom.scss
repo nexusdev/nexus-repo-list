@@ -9,7 +9,21 @@
 }
 
 
+h1, h2 {
+	font-family: RidleyGrotesk-Thin;
+	font-weight: normal;
+	font-style: normal;
+	color: $primary-color;
 
+}
+
+h3, h4 {
+	font-family: RidleyGrotesk-Medium;
+	font-weight: normal;
+	font-style: normal;
+	color: $primary-color;
+
+}
 
 .awesome {
 -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -55,18 +69,26 @@ background-color: #a9014b;
 background-color: #ffb515;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+    height:24px;
+    width: 24px;
+    fill: currentColor;
+}
+
+
 
 button, .button {
   transition: all 0.3s ease 0s !important;
   vertical-align: middle;
+		padding: 0.45rem 2rem;
+		font-size: 13px;
   &.outline {
     &:hover, &:focus, &:active {
       background: none !important;
 			border: 1px solid $purple-bg;
 			color: $secondary-color;
     }
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+
     background: none;
     border: 1px solid $purple-bg-dark;
 		color: $purple-bg;
@@ -80,21 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	@media #{$large-up} {
 	}
-}
-
-//helper for font weight
-//Open+Sans:400,700,800|Raleway:400,200,700
-.font-light {
-	font-weight: 100;
-}
-.font-weight-normal {
-	font-weight: 300;
-}
-.font-bold {
-	font-weight: 400;
-}
-.font-heavy {
-	font-weight: 700;
 }
 
 
@@ -111,11 +118,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body, html {
-  font-weight: 300;
+	color: $dark-bg-color;
+  font-weight: 100;
   @include font-size(18px);
 	line-height: 2.25rem;
   p {
-    font-weight: 300;
+    font-weight: 100;
 
   }
 }
@@ -226,6 +234,8 @@ canvas {
 
   }
 }
+
+
 
 
 #hero-small {

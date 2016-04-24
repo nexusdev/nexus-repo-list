@@ -2,26 +2,11 @@
 .center
 {
   position: absolute;
-  margin: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
   top: 80vh;
+  margin-left: -2px;
 }
-
-.mouse span
-{
-  display: block;
-  width: 5px;
-  height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
-  margin: 0 0 2px 6px;
-}
-
-
 
 
 
