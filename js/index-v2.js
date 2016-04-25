@@ -53,9 +53,9 @@ var Webgl = function () {
     this.aspectRatio = width / height;
     this.rotationMode = false;
     this.wireframeMode = false;
-    this.distance = 72;
+    this.distance = 12;
     this.camera = new THREE.OrthographicCamera(-this.distance * this.aspectRatio, this.distance * this.aspectRatio, this.distance, -this.distance, 1, 1000);
-    this.camera.position.set(0, -135, 150);
+    this.camera.position.set(0, -135, 0);
     this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     this.renderer.setSize(width, height);
 
@@ -64,8 +64,8 @@ var Webgl = function () {
     this.cubesGroup = new THREE.Object3D();
 
     this.cubes = [];
-    this.cubeSize = 8;
-    this.cubeOffset = 12;
+    this.cubeSize = 12;
+    this.cubeOffset = 4;
 
     this.drawCubes();
 
@@ -100,7 +100,7 @@ var Webgl = function () {
   Webgl.prototype.resize = function resize(width, height) {
     this.aspectRatio = width / height;
     this.camera = new THREE.OrthographicCamera(-this.distance * this.aspectRatio, this.distance * this.aspectRatio, this.distance, -this.distance, 1, 1000);
-    this.camera.position.set(0, 0, 150);
+    this.camera.position.set(0, 0, 0);
 
     this.camera.updateProjectionMatrix();
 
@@ -109,10 +109,10 @@ var Webgl = function () {
 
   Webgl.prototype.animation = function animation() {
 
-    var initRotationDuration = 3.6;
+    var initRotationDuration = 128;
     var halfLength = Math.floor(this.cubes.length / 2);
-    var staggerOffset = 0.45;
-    var loopDelay = 124;
+    var staggerOffset = 0.25;
+    var loopDelay = 2;
 
     var groupTl = new TimelineMax();
 
