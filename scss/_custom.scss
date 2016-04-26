@@ -30,7 +30,7 @@ h3, h4 {
 -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
 border-bottom: 1px solid rgba(0,0,0,0.25);
-font-family:  Roboto;
+	font-family: RidleyGrotesk-UltraLight;
 }
 
 /* Sizes ---------- */
@@ -79,6 +79,21 @@ background-color: #ffb515;
 	font-weight: 700;
 	color: $primary-color;
 }
+
+p.description {
+	font-size: 0.75rem;
+}
+
+
+.github-widget {
+	font-family: RidleyGrotesk-UltraLight;
+	font-size: 10px;
+	.updated {
+		display: none;
+	}
+}
+
+
 
 button, .button {
   transition: all 0.3s ease 0s !important;

@@ -55,17 +55,17 @@ var Webgl = function () {
     this.wireframeMode = false;
     this.distance = 72;
     this.camera = new THREE.OrthographicCamera(-this.distance * this.aspectRatio, this.distance * this.aspectRatio, this.distance, -this.distance, 1, 1000);
-    this.camera.position.set(0, -135, 150);
+    this.camera.position.set(0, 0, 150);
     this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     this.renderer.setSize(width, height);
 
-    this.animationIntroDone = true;
+    this.animationIntroDone = false;
 
     this.cubesGroup = new THREE.Object3D();
 
     this.cubes = [];
-    this.cubeSize = 8;
-    this.cubeOffset = 12;
+    this.cubeSize = 6;
+    this.cubeOffset = 10;
 
     this.drawCubes();
 
@@ -109,10 +109,10 @@ var Webgl = function () {
 
   Webgl.prototype.animation = function animation() {
 
-    var initRotationDuration = 3.6;
+    var initRotationDuration = 4;
     var halfLength = Math.floor(this.cubes.length / 2);
     var staggerOffset = 0.45;
-    var loopDelay = 124;
+    var loopDelay = 4;
 
     var groupTl = new TimelineMax();
 
@@ -147,7 +147,7 @@ var Webgl = function () {
 
       var tl = new TimelineMax({ delay: delay, repeat: -1, repeatDelay: loopDelay, yoyo: true });
 
-      tl.to(this.cubes[i].position, 11.5, { x: newX, y: newY, z: newZ, ease: Back.easeOut }).to(this.cubes[i].rotation, 0.5, { x: Math.PI, y: -Math.PI, ease: Cubic.easeOut }).to(this.cubes[i].scale, 0.5, { x: 0.5, y: 0.5, z: 0.5, ease: Cubic.easeOut }, "-=0.4");
+      tl.to(this.cubes[i].position, 0.5, { x: newX, y: newY, z: newZ, ease: Back.easeOut }).to(this.cubes[i].rotation, 0.5, { x: Math.PI, y: -Math.PI, ease: Cubic.easeOut }).to(this.cubes[i].scale, 0.5, { x: 0.5, y: 0.5, z: 0.5, ease: Cubic.easeOut }, "-=0.4");
     }
   };
 
@@ -168,7 +168,6 @@ var Webgl = function () {
 
   return Webgl;
 }();
-
 // Main js
 
 var webgl = undefined;
