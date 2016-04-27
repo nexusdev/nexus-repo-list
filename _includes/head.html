@@ -8,18 +8,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
+    <!-- Typekit Font -->
+    <script>
+      (function(d) {
+        var config = {
+                  kitId: 'xih0jqp',
+                  scriptTimeout: 3000,
+                  async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+    <!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3208669, 2016-04-24T14:27:41-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: RidleyGrotesk-Thin by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/ridley-grotesk/thin/
+ *
+ * Webfont: RidleyGrotesk-UltraLight by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/ridley-grotesk/ultra-light/
+ *
+ * Webfont: RidleyGrotesk-Bold by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/ridley-grotesk/bold/
+ *
+ * Webfont: RidleyGrotesk-ExtraBold by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/ridley-grotesk/extra-bold/
+ *
+ * Webfont: RidleyGrotesk-Medium by Radomir Tinkov
+ * URL: http://www.myfonts.com/fonts/radomir-tinkov/ridley-grotesk/medium/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3208669
+ * Licensed pageviews: 50,000
+ * Webfonts copyright: Copyright &#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ *
+ * © 2016 MyFonts Inc
+*/
+
+-->
+
+<script type="text/javascript">
+//uncomment and change this to false if you're having trouble with WOFFs
+//var woffEnabled = true;
+//to place your webfonts in a custom directory
+//uncomment this and set it to where your webfonts are.
+var customPath = "/fonts/";
+</script>
+<script type="text/javascript" src="../js/nxs-ridley.js"></script>
+
     <!-- CSS  Get: http://www.google.com/fonts/
-    http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
     ================================================== -->
-    <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,700|Raleway:400,200,700" rel="stylesheet" type="text/css">
     <!-- Fount Awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <link href="https://file.myfontastic.com/8pyPXBnoTJjU7omXYgg3J6/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/animate.min.css" />
     <!-- Ah, the favicon.
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../media/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../media/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../media/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../media/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../media/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../media/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../media/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../media/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../media/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="../media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../media/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../media/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="../media/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="../media/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="../media/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="../media/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="../media/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="../media/favicon/mstile-310x310.png" />
+
 
     <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
     Twitter: https://dev.twitter.com/docs/cards/types/summary-card
@@ -38,5 +114,9 @@
     <!-- modernizr
     ================================================== -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
+
+    <!-- Feather Icons -->
+    <link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+
   </head>
   <body>

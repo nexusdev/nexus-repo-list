@@ -8,11 +8,14 @@
 
 /* foundation */
 @import "settings",
-		"foundation";
+			"foundation";
 
 /* padding and margins */
 @import "padding-margin";
 
 
 /* custom */
+@import "variables";
 @import "custom";
+@import "tabs";
+@import "mouse-scroll";

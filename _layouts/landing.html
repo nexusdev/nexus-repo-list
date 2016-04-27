@@ -19,9 +19,9 @@
 {% include hero.html %}
 
 
-        <div class="row">
+        <div class="row" id="about">
           <section role="main">
-            <div class="small-12 columns">
+            <div class="small-12 columns before-features">
 
               {{ content }}
 
@@ -29,6 +29,31 @@
           </section>
         </div>
 
+
+      <section class="features" id="products">
+          <div class="row">
+                        <center>
+                        <img  class="mal" src="../media/images/line-p.svg"  />
+                        </center>
+            <h2 class="text-center mbm">Solidity Dev Suite</h2>
+
+          <div class="small-12 columns mtl ">
+              {% include tabs-products.html %}
+
+          </div>
+          </div>
+      </section>
+        <center>
+        <img  class="mal" src="../media/images/line-p.svg"  />
+        </center>
+  {% include maker.html %}
+
+
+        <center>
+        <img  class="mal" src="../media/images/line-p.svg"  />
+        </center>
+
+              {% include newsletter.html %}
 
 <!-- Add Footer  -->
 {% include footer.html %}

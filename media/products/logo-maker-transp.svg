@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="106px" height="74px" viewBox="0 0 106 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-maker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M48.3226696,34.6452132 C48.3226696,33.8699222 47.9534287,33.1397423 47.325743,32.6737747 L4.06455591,0.558476058 C2.41772261,-0.664064207 0.0640692598,0.495815372 0.0640692598,2.52991453 L0.0640692598,71.4305556 C0.0640692598,72.792858 1.18277833,73.8972224 2.56277589,73.8972224 C3.94277346,73.8972224 5.06148253,72.792858 5.06148253,71.4305556 L5.06148237,7.27350456 L43.5719716,36.0512829 L43.3252561,71.4305548 C43.3252561,72.7928573 44.4439652,73.8972216 45.8239627,73.8972216 C47.2039603,73.8972216 48.3226694,72.7928573 48.3226694,71.4305548 L48.3226696,34.6452132 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.19604846 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M61.8317497,35.7350436 L100.273388,7.27350456 L99.8975779,71.4305556 C99.8975779,72.792858 101.016287,73.8972224 102.396285,73.8972224 C103.776282,73.8972224 104.894991,72.792858 104.894991,71.4305556 L104.894991,2.52991453 C104.894991,0.495815372 102.541338,-0.664064207 100.894505,0.558476058 L57.6333175,32.6737747 C57.0056317,33.1397423 56.6363908,33.8699222 56.6363908,34.6452132 L56.636391,71.4305548 C56.6363911,72.7928573 57.7551001,73.8972216 59.1350977,73.8972216 C60.5150953,73.8972216 61.6338043,72.7928573 61.6338043,71.4305548 L61.8317497,35.7350436 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.19604846 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="MKR-github" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-maker">
+            <g id="Path-3-Copy-4-+-Path-3-Copy-5-Copy" transform="translate(0.315566, 0.000000)">
+                <g id="Shape">
+                    <use fill="#EFF1F3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Shape">
+                    <use fill="#EFF1F3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
