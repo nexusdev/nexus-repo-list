@@ -22,7 +22,7 @@ Web services of the future will compete on transparency and trustlessness.
 
 <div class="columns small-12 large-6">
 <p>We do this by developing in expedited sprints while also proving our clients with top shelf service, easy to understand documentation, and updates every step of the way.</p>
-<p>Our team of developers and designers provide "full-stack" consulting, educating business leaders about the way open data will change their business processes to on-site developer training for our Solidity Dev Suite..</p>
+<p>Our team of developers and designers provide "full-stack" consulting, educating business leaders about the way open data will change their business processes to on-site developer training for our Solidity Dev Suite.</p>
 </div>
 
 </div>
