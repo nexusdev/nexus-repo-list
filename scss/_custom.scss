@@ -25,6 +25,10 @@ h3, h4 {
 
 }
 
+.github-box-title h3 {
+	font-size: 24px;
+}
+
 .awesome {
 -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -87,10 +91,8 @@ p.description {
 
 .github-widget {
 	font-family: RidleyGrotesk-UltraLight;
-	font-size: 10px;
-	.updated {
-	//	display: none;
-	}
+	font-size: 16px;
+
 }
 
 
