@@ -8,6 +8,10 @@
 	font-size: calculateRem($size);
 }
 
+body {
+	font-family: helvatica;
+}
+
 
 h1, h2 {
 	font-family: RidleyGrotesk-Thin;
@@ -31,6 +35,8 @@ h3, h4 {
 
 .github-box .github-box-download .updated {
 	color: $primary-color;
+	font-size: 16px;
+
 }
 
 
@@ -95,8 +101,8 @@ p.description {
 
 
 .github-widget {
-	font-family: RidleyGrotesk-UltraLight;
-	font-size: 16px;
+
+	font-size: 18px;
 
 }
 
