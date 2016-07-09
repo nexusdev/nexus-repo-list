@@ -10,16 +10,12 @@
         <![endif]-->
 
 <!-- Add TopNav  -->
-{% include topnav.html %}
-
-<!-- Add OffCanvas  -->
-{% include offcanvas.html %}
-
-<!-- Add Hero  -->
-{% include hero.html %}
+{% include topsection.html %}
 
 
-        <div class="row" id="about">
+
+
+      <!--  <div class="row" id="about">
           <section role="main">
             <div class="small-12 columns before-features">
 
@@ -27,33 +23,27 @@
 
             </div>
           </section>
-        </div>
+        </div> -->
 
 
       <section class="features" id="products">
           <div class="row">
-                        <center>
-                        <img  class="mal" src="../media/images/line-p.svg"  />
-                        </center>
-            <h2 class="text-center mbm">Solidity Dev Suite</h2>
+      
 
-          <div class="small-12 columns mtl ">
-              {% include tabs-products.html %}
+          <div class="small-12 columns ">
+              {% include repos.html %}
 
           </div>
           </div>
       </section>
-        <center>
+
+<!--   {% include maker.html %} -->
+{% include contact.html %}
+
+      <!--   <center>
         <img  class="mal" src="../media/images/line-p.svg"  />
-        </center>
-  {% include maker.html %}
+        </center>-->
 
-
-        <center>
-        <img  class="mal" src="../media/images/line-p.svg"  />
-        </center>
-
-              {% include newsletter.html %}
 
 <!-- Add Footer  -->
 {% include footer.html %}

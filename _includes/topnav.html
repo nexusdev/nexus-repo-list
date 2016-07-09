@@ -1,27 +1,30 @@
 <section id="topnav" class="invisible sticky fixed">
+  <header id="header" class="row">
 
+    <div class="small-12 columns ">
+      <section class="right show-for-medium-up  pbs" style="margin-top:4px;">
+        <ul class="inline-list nav pbs mts">
+          {% include nav.html %}
+        </ul>
+      </section>
 
-    <header id="header" class="row">
-
-        <div class="small-12 columns ">
-            <section class="right show-for-medium-up pts pbs">
-                <ul class="inline-list nav  pbs">
-                    {% include nav.html %}
-                </ul>
-            </section>
-
-            <section class="right show-for-small">
-                <ul class="inline-list mam ">
-                <li>
-                    <a class="top-off-canvas-toggle" href="#"><i class="fa fa-bars fa-lg">
+      <section class="right show-for-small">
+        <ul class="inline-list mam ">
+          <li>
+            <a class="top-off-canvas-toggle" href="#"><i class="fa fa-bars fa-lg">
                     </i></a>
-                </li>
-                </ul>
-            </section>
+          </li>
+        </ul>
+      </section>
+      <div class=" mts">
+        <a href="{{ site.url }}">
+          <img class="logo" src="/media/images/nxs-logo-jt.svg" style="max-width:96px;" />
+          <!--<span>nexus<b>dev</b></span>-->
+        </a>
 
-        <a  href="{{ site.url }}"><img class="logo "  src="/media/images/nxs-logo-typo.svg" /> </a>
+      </div>
 
 
-        </div>
-    </header>
+    </div>
+  </header>
 </section>
